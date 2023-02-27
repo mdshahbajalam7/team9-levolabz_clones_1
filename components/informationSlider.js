@@ -64,7 +64,7 @@ export default function InformationSlider() {
   };
 
   return (
-    <div className="bg-white pt-36">
+    <div  className="bg-white pt-36">
       <div className="flex justify-around gap-4">
         <div className="cursor-pointer">
           <BsChevronCompactLeft

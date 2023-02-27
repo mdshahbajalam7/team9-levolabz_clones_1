@@ -1,8 +1,8 @@
 import Image from "next/image";
 export default function Dedicated() {
   return (
-    <div className="flex  sm:flex-col md:flex-col lg:flex-row justify-around">
-      <div className="justify-center lg:w-[50%] lg:pl-10">
+    <div className="w-[85%] mx-[auto]: flex sm:flex-col md:flex-col lg:flex-row justify-around">
+      <div className="justify-center lg:w-[80%] lg:pl-10">
         <Image
           className=" w-[100%] md:p-[50px]"
           src="https://d2mk45aasx86xg.cloudfront.net/graph_be4a9cff45.svg"
@@ -11,12 +11,12 @@ export default function Dedicated() {
           height={'0'}
         />
       </div>
-      <div className="pt-12 sm:pl-5 md:pl-10 lg:w-[80%] lg:pl-80">
+      <div className="pt-12 sm:pl-5 md:pl-10 lg:w-[80%]">
         <h1>CLIENTS</h1>
         <h1 className="text-4xl font-semibold leading-normal md:text-3xl sm:text-2xl">
         Hire a dedicated development team
         </h1>
-        <p className="pt-5 text-lg lg:w-[60%]">
+        <p className="pt-5 text-lg lg:w-[95%]">
           At the push of a button, our AI-powered
           deep-vetting platform - the Talent Cloud - matches
           clients with remote developers, tech leads, and others to
