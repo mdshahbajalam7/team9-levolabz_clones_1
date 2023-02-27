@@ -1,6 +1,7 @@
 export default function FooterOne() {
   return (
-    <div className="bg-[#1e1e1e] pt-16 pb-16 ">
+    <div className="bg-[#1e1e1e]">
+    <div className=" w-[80%] mx-[auto]  pt-16 pb-16 ">
       <div className="flex gap-11  sm:gap-[50px] md:gap-[50px] lg:gap-[200px] sm:flex-col md:flex-col lg:flex-row">
         <div className="md:pl-10 sm:pl-5">
           <svg
@@ -112,6 +113,7 @@ export default function FooterOne() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

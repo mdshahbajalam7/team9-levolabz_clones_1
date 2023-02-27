@@ -5,7 +5,7 @@ const Career = () => {
   return (
     <>
       <div className="w-[100%] bg-gray-100 mt-4 lg:h-[450px] md:h-[750px] sm:h-[750px]">
-        <div className="w-[84%]  flex lg:flex-row justify-around md:flex-col-reverse  sm:flex-col-reverse sm:pl-5 md:pl-4 md:mx-auto">
+        <div className="w-[80%]  flex lg:flex-row justify-around md:flex-col-reverse  sm:flex-col-reverse sm:pl-5 md:pl-4 md:mx-auto">
           <div className="mt-14 ">
             <h2 className=" text-[16px]  font-semibold text-[#737373]  mb-2 capitalize">
               DEVELOPERS
