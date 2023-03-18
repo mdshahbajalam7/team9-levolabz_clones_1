@@ -1,14 +1,14 @@
 import Image from "next/image";
 export default function Deeply() {
   return (
-    <div className=" bg-[#f8f8f8]">
-    <div className="w-[80%] mx-[auto] flex pt-16 pb-8 sm:flex-col-reverse md:flex-col-reverse lg:flex-row justify-around">
-      <div className="pr-16 sm:pl-5 md:pl-10">
+    <div className="w-[100%]  bg-[#f8f8f8] ">
+    <div className="lg:w-[80%]  mx-[auto] flex pt-16 pb-8 sm:flex-col-reverse md:flex-col-reverse lg:flex-row justify-around">
+      <div className=" pr-16  md:mt-5 sm:pl-5 lg:ml-[-20px] ">
         <h1>CLIENTS</h1>
-        <h1 className="text-4xl font-semibold leading-normal sm:w-[100%] sm:text-[29px]">
+        <h1 className=" text-4xl font-semibold leading-normal sm:w-[100%] sm:text-[21px] md:text-[30px]">
           Hire deeply-vetted developers
         </h1>
-        <p className="pt-5 text-lg lg:w-[90%]">
+        <p className="pt-3 text-lg lg:w-[90%] md:w-[100%] sm:w-[120%]">
           A software-first solution to any engineering problem. Use our
           AI-powered deep-vetting platform to hire and manage the
           right remote developers, tech leads, and others for your resource needs.
@@ -19,9 +19,9 @@ export default function Deeply() {
           </button>
         </div>
       </div>
-      <div className="pr-[90px] pl-11 lg:w-[100%] lg:-ml-30">
+      <div className="pl-11 lg:w-[110%] lg:mr-[80px]">
         <Image
-          className="w-[100%] h-[100%] "
+          className="w-[100%] h-[100%] lg:ml-37"
           src="https://d2mk45aasx86xg.cloudfront.net/world_d650185bdd.svg"
           width={500}
           height={500}

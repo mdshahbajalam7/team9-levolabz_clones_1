@@ -15,6 +15,10 @@ import Businesses from "@/components/businesses";
 import Developers from "@/components/developers";
 import Bestdevelopers from "@/components/bestdevelopers";
 import Navbar from "@/components/navbar";
+import Contact from "@/components/contact";
+import Footers from "@/components/footers";
+import Testimonials from "@/components/testimonials";
+import Product from "@/components/product";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -53,7 +57,13 @@ export default function Home() {
       <PeopleTuring />
       <InformationSlider />
       <RemoteDevelopre />
-      <Footer />
+      {/* <Footer /> */}
+
+      {/* new components */}
+      <Product/>
+      <Testimonials/>
+      <Contact/>
+      <Footers/>
     </>
   );
 }
